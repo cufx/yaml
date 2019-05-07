@@ -1,0 +1,19 @@
+swagger: '2.0'
+info:
+  version: '4.2'
+  title: 'Credit Union Financial eXchange'
+  description: 'Credit Union Industry Standard. The following API examples are produced using scripting methods to create a swagger representation of the XML/XSDs. In the event of any noted deviations, the published XSDs on www.cufxstandards.com are the basis of intended content and behavior. Please see http://www.cufxstandards.com/Home/tabid/56/ctl/Terms/Default.aspx for the terms of use applicable for CUFX.'
+host: virtserver.swaggerhub.com
+basePath: /dlacroix01/CUFX/4.2
+securityDefinitions:
+  UserSecurity:
+    type: basic
+security:
+  - UserSecurity: [] 
+schemes:
+  - https
+  - http
+produces:
+  - application/json
+consumes:
+  - application/json
